@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>담다</title>
+    <link rel="stylesheet" as="style" crossorigin="" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable.css">
+
+</head>
+
+<body>
+
+    <header>
+            <div class="navibar">
+                <a href="main.html" id="logo">
+                    <img src="image/logo.png" height="20">
+            </a>
+    
+        <ul id="menu">
+            <li><a href="#">도서관 소개</a></li>
+            <li><a href="#">도서관 이용</a></li>
+            <li><a href="#">전자 책 대여</a></li>
+            <li><a href="sub1.html">이 달의 도서</a></li>
+            <li><a href="sub2.html">나의 도서관</a></li>
+    
+        </ul>
+        </div>
+    </header>
+
+    <div class="header"></div>
+
+    <main>
+
+        <div class="products">
+            <h1>나의 도서관</h1>
+            <h2>로그인해야 이용할 수 있는 기능입니다.</h2>
+
+                    <div class="login-form">
+
+                        <form>
+                          <input type="text" name="email" class="text-field" placeholder="아이디"><br>
+                          <input type="password" name="password" class="text-field" placeholder="비밀번호"><br>
+                          <input type="submit" value="로그인" class="submit-btn">
+                        </form>
+                    
+                        <div class="links">
+                          <a href="#">비밀번호를 잊어버리셨나요?</a>
+                        </div>
+                      </div>
+
+    </main>
+
+    </body>
+
+    <style>
+
+        @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable.css");    
+        
+*{
+    box-sizing: border-box;
+    border-collapse: collapse;
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+body{
+    margin: 0;
+    min-width: 992px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navibar{
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navibar #logo{
+    line-height: 60px;
+}
+
+.navibar #logo img{
+    vertical-align: middle;
+}
+
+.navibar #menu{
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navibar #menu li{
+    float: left;
+    position: relative;
+    margin-left: 30px;
+    line-height: 60px;
+}
+
+.navibar #menu li a{
+    position: relative;
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+.navibar > li{
+    margin-left: 65px;
+}
+
+.header{
+    height: 450px;
+    margin: auto;
+    background-image: url("https://i.postimg.cc/HxtLFZLF/library-5641389-1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ 
+image{
+  border: 0;
+  vertical-align: top;
+  overflow: clip;
+}
+
+.products > h1{
+    font-size: 2em;
+    color: #233D91;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.products > h2{
+    font-size: 14px;
+    color: #000000;
+    margin-top: -55px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.login-form{
+    background-color: #EEEFF1;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 65px;    
+}
+
+.text-field{
+  font-size: 14px;
+  border: none;
+  width: 260px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;  
+}
+
+.submit-btn{    
+  font-size: 14px;
+  background-color: #ffffff;
+  text-align: center;
+  width: 260px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.submit-btn:hover{ 
+  box-shadow: 0px 2px 2px 0 rgba(0, 0, 0, 0.50); 
+}
+
+.links{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.links a{
+  font-size: 12px;
+  color: #9B9B9B;
+  text-align: center;
+}

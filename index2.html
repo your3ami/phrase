@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>담다</title>
+    <link rel="stylesheet" as="style" crossorigin="" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable.css">
+
+</head>
+
+<body>
+
+    <header>
+            <div class="navibar">
+                <a href="main.html" id="logo">
+                    <img src="image/logo.png" height="20">
+            </a>
+    
+        <ul id="menu">
+            <li><a href="#">도서관 소개</a></li>
+            <li><a href="#">도서관 이용</a></li>
+            <li><a href="#">전자 책 대여</a></li>
+            <li><a href="sub1.html">이 달의 도서</a></li>
+            <li><a href="sub2.html">나의 도서관</a></li>
+    
+        </ul>
+        </div>
+    </header>
+
+    <div class="header"></div>
+
+    <main>
+
+        <div class="products">
+            <h1>이 달의 도서</h1>
+            <h2>이 달의 도서 테마는 사랑입니다.</h2>
+
+          <div class="product-list">
+            <a href="#" class="product">
+              <img src="cover/천 개의 파랑.jpg" height="175">
+              <div class="product-name">천 개의 파랑</div>
+              <div class="product-by">천선란 장편 소설</div>
+            </a>
+          
+          <a href="#" class="product">
+              <img src="cover/지구에서 한아뿐.jpg" height="175">
+              <div class="product-name">지구에서 한아뿐</div>
+              <div class="product-by">정세랑 장편 소설</div>
+            </a>
+          
+          <a href="#" class="product">
+              <img src="cover/어떤 물질의 사랑.jpg" height="175">
+              <div class="product-name">어떤 물질의 사랑</div>
+              <div class="product-by">천선란 장편 소설</div>
+            </a>
+          
+          <a href="#" class="product">
+              <img src="cover/냉정과 열정 사이 Blu.jpg" height="175">
+              <div class="product-name">냉정과 열정 사이 Blu</div>
+              <div class="product-by">츠지 히토나리 장편 소설</div>
+            </a>
+          
+          <a href="#" class="product">
+              <img src="cover/냉정과 열정 사이 Rosso.jpg" height="175">
+              <div class="product-name">냉정과 열정 사이 Rosso</div>
+              <div class="product-by">츠지 히토나리 장편 소설</div>
+            </a>
+          
+          <a href="#" class="product">
+              <img src="cover/사서함 110호의 우편물.jpg" height="175">
+              <div class="product-name">사서함 110호의 우편물</div>
+              <div class="product-by">이도우 장편 소설</div>
+            </a>
+          
+          <a href="#" class="product">
+              <img src="cover/너의 다정한 우주로부터.jpg" height="175">
+              <div class="product-name">너의 다정한 우주로부터</div>
+              <div class="product-by">이경희 장편 소설</div>
+            </a>
+          
+          <a href="#" class="product">
+              <img src="cover/세계를 건너 너에게 갈게.jpg" height="175">
+              <div class="product-name">세계를 건너 너에게 갈게</div>
+              <div class="product-by">이꽃님 장편 소설</div>
+            </a>
+          
+          <a href="#" class="product">
+              <img src="cover/날씨가 좋으면 찾아가겠어요.jpg" height="175">
+              <div class="product-name">날씨가 좋으면 찾아가겠어요</div>
+              <div class="product-by">이도우 장편 소설</div>
+            </a>
+            <div class="clearfix"></div>
+          </div>
+    
+        </div>
+
+    </main>
+
+    </body>
+
+    <style>
+
+        @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable.css");    
+        
+*{
+    box-sizing: border-box;
+    border-collapse: collapse;
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+body{
+    margin: 0;
+    min-width: 992px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    height: 450px;
+    margin: auto;
+    background-image: url("https://i.postimg.cc/HxtLFZLF/library-5641389-1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navibar{
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navibar #logo{
+    line-height: 60px;
+}
+
+.navibar #logo img{
+    vertical-align: middle;
+}
+
+.navibar #menu{
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navibar #menu li{
+    float: left;
+    position: relative;
+    margin-left: 30px;
+    line-height: 60px;
+}
+
+.navibar #menu li a{
+    position: relative;
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+.navibar > li{
+    margin-left: 65px;
+}
+ 
+image{
+  border: 0;
+  vertical-align: top;
+  overflow: clip;
+}
+
+h1, h2{
+    margin-bottom: 5px;
+}
+
+p{
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.product{
+    font-size: 14px;
+    text-align: center;
+    width: 225px;
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.product-list{
+    width: 735px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products > h1{
+    font-size: 2em;
+    color: #233D91;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.products > h2{
+    font-size: 14px;
+    color: #000000;
+    margin-top: -55px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.product-name{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.product-by{
+    margin-top: 2px;
+}
+
+</style>
